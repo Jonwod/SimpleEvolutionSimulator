@@ -34,7 +34,7 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     sf::ContextSettings contextSettings( 0, 0, 1) ;
     
-    sf::RenderWindow window(sf::VideoMode(1280, 768, 32), "Evolve", sf::Style::Default, contextSettings);
+    sf::RenderWindow window(sf::VideoMode(1280, 768, 32), "Simple Evolution Simulator", sf::Style::Default, contextSettings);
     
     window.setFramerateLimit(60);
     
